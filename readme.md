@@ -7,7 +7,7 @@
 1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
    - In erste Teil des Orginisations war ick stark aber beim Ablauf und Aufbauorganisationen könnte ich besser machen.
 2. Was wäre ein geeignetes Projekt für diese LP1?
-   - Ich will eine Budgetplaner erstellen, dass meine Einnahmen und Ausgaben zu erfassen und so meine aktuellen Salden sowie die Ausgabenhistorie digital zu verfolgen.
+   - Ich will eine Matematikfragen-Generator erstellen, die falls du richtig machst, dir 1 Punkt gibt und falls nicht, das Spiel beendet. 
 
 ## 28.8.2026
 
