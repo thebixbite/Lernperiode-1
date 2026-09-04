@@ -13,12 +13,16 @@
 
 Heute habe ich die erste Teil des Matemathikfragen-Generators fertig programmiert. Es zeigt 2 Zahlen um entweder zu addieren, zu subtrahieren oder zu multiplizieren. Ich habe viel neue Codes auf Internet und von KI gelernt und die an meine Projekt genutzt. Ich habe den Code vielmals testet und debugged. Es ist eigentlich fertig aber ich muss noch 4-5 Sachen hizufügen. 
 
-## 6.9.2026
+## 4.9.2026
 
-- [ ] Ich werde in meine Projekt noch ein Zeit-Limit programmieren.
-- [ ] Ich werde ein High-Score Table einlegen, der deine beste Versuchen zeigt.
+- [x] Ich werde in meine Projekt noch ein Zeit-Limit programmieren
+
+
+Heute habe ich in meine Projekt ein Zeit-Limit programmiert. Man hat 10 Sekunde für jede Frage und wenn die Zeit ist vor, beendet sich das Spiel. 
+
+## 11.9.2026
+
+- [ ] Ich werde ein High-Score Table einlegen, der deine beste Versuchen zeigt
 - [ ] Ich werde verschiedene Schwierigkkeit-Leveln hinzufügen
-
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+- [ ] Mission 7 der Modul 319 wiederholen
+- [ ] Ganze Code in Console starten
