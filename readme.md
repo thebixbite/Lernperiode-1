@@ -22,7 +22,16 @@ Heute habe ich in meine Projekt ein Zeit-Limit programmiert. Man hat 10 Sekunde 
 
 ## 11.9.2026
 
-- [ ] Ich werde ein High-Score Table einlegen, der deine beste Versuchen zeigt
-- [ ] Ich werde verschiedene Schwierigkkeit-Leveln hinzufügen
-- [ ] Mission 7 der Modul 319 wiederholen
-- [ ] Ganze Code in Console starten
+- [x] Ich werde ein High-Score Table einlegen, der deine beste Versuchen zeigt
+- [ ] Ich werde verschiedene Schwierigkeit-Leveln hinzufügen --> Hausaufgabe
+- [x] Mission 7 der Modul 319 wiederholen
+- [x] Ganze Code in Console starten
+
+Heute habe ich ein Highest-Score Table eingelegen, ganze Code in der Console startet (bis jetzt habe ich es in der Terminal startet) und Mission 7 widergeholen. Als Hausaufgabe werde ich die Schwierigkeit-Leveln hinzufügen. Am Amfang war ich in der Alte Kanti für die ICT-Support Unterrichten.
+
+
+## 18.9.2026
+
+- [ ] Ich werde die Ganze Code kontrollieren, um zu sehen, ob etwas fehlt oder nicht und üben die Code, die ich noch nicht ganz kenne.
+      
+
