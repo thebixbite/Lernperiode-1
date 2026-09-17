@@ -1,11 +1,19 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace MathQuiz
 {
     class Program
     {
+        enum Difficulty
+        {
+            Easy,
+            Medium,
+            Hard
+        }
+
         static int highScore = 0;
         static readonly object consoleLock = new();
         static int lastHighScoreTextLength = 0;
@@ -77,6 +85,44 @@ namespace MathQuiz
 
             while (true)
             {
+                Difficulty difficulty;
+                while (true)
+                {
+                    Console.WriteLine("\nSelect difficulty");
+                    Console.WriteLine("1) Easy ");
+                    Console.WriteLine("2) Medium ");
+                    Console.WriteLine("3) Hard ");
+                    Console.Write("Choice (1/2/3): ");
+
+                    string? choice = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(choice))
+                    {
+                        Console.WriteLine("Choice invalid, please try again.");
+                        continue;
+                    }
+
+                    choice = choice.Trim().ToLowerInvariant();
+                    if (choice == "1" || choice == "Easy")
+                    {
+                        difficulty = Difficulty.Easy;
+                        break;
+                    }
+                    else if (choice == "2" || choice == "Medium")
+                    {
+                        difficulty = Difficulty.Medium;
+                        break;
+                    }
+                    else if (choice == "3" || choice == "Hard")
+                    {
+                        difficulty = Difficulty.Hard;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Choice invalid, please try again.");
+                    }
+                }
+
                 int totalScore = 0;
                 DrawHighScore();
 
@@ -84,9 +130,29 @@ namespace MathQuiz
                 {
                     DrawHighScore();
 
-                    int operationType = random.Next(1, 4);
-                    int number1 = random.Next(1, 100);
-                    int number2 = random.Next(1, 100);
+                    
+                    int minNumber = 1;
+                    int maxNumber = 99;
+                    List<int> allowedOps = new() { 1, 2 };
+                    if (difficulty == Difficulty.Easy)
+                    {
+                        maxNumber = 9;
+                        allowedOps = new() { 1, 2 };
+                    }
+                    else if (difficulty == Difficulty.Medium)
+                    {
+                        maxNumber = 99;
+                        allowedOps = new() { 1, 2 };
+                    }
+                    else if (difficulty == Difficulty.Hard)
+                    {
+                        maxNumber = 99;
+                        allowedOps = new() { 1, 2, 3 };
+                    }
+
+                    int operationType = allowedOps[random.Next(allowedOps.Count)];
+                    int number1 = random.Next(minNumber, maxNumber + 1);
+                    int number2 = random.Next(minNumber, maxNumber + 1);
 
                     int correctAnswer = 0;
 
