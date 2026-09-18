@@ -45,6 +45,6 @@ Als Hausaufgabe habe ich verschiedene Schwierigkeiten hinzugefügt.
 
 ## 18.9.2026
 
-- [ ] Ich werde die Ganze Code kontrollieren, um zu sehen, ob etwas fehlt oder nicht und üben die Code, die ich noch nicht ganz kenne.
+- [x] Ich werde die Ganze Code kontrollieren, um zu sehen, ob etwas fehlt oder nicht und üben die Code, die ich noch nicht ganz kenne.
       
 
