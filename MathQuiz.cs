@@ -97,7 +97,7 @@ namespace MathQuiz
                     string? choice = Console.ReadLine();
                     if (string.IsNullOrWhiteSpace(choice))
                     {
-                        Console.WriteLine("Choice invalid, please try again.");
+                        Console.WriteLine("Please enter a valid number.");
                         continue;
                     }
 
@@ -119,12 +119,11 @@ namespace MathQuiz
                     }
                     else
                     {
-                        Console.WriteLine("Choice invalid, please try again.");
+                        Console.WriteLine("Please enter a valid number.");
                     }
                 }
 
                 int totalScore = 0;
-                DrawHighScore();
 
                 while (true)
                 {
@@ -194,7 +193,7 @@ namespace MathQuiz
 
                     input = await readTask;
 
-                    if (!int.TryParse(input, out int enteredNumber))
+                    if (!int.TryParse(input,out int enteredNumber))
                     {
                         Console.WriteLine("Please enter a valid number.");
                         continue;
