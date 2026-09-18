@@ -1,5 +1,16 @@
 # Lern-Periode 1
 
+## fertiges Projekt
+
+Meine Projekt ist eine Mathematik-Spiel, wo man zahlen rechnet bis er ein Fehler macht. Man wählt einer Schwierigkeit und jede Schwierigkeit hat verschiedene Zahl- und Rechnenmethode (Easy: 1-9, nur Addition und Subtraktion | Medium: 1-99, Addition und Subtraktion | Hard: 1-99, Addition, Subtraktion und Multiplikation).
+Man sieht seine höchste Punkt am oben rechts (Der Punktestand wird bei jedem erneuten Öffnen der App zurückgesetzt). Man hat 10 Sekunden für jede Frage.
+
+<img width="1472" height="750" alt="image" src="https://github.com/user-attachments/assets/f321564c-4ff0-4af1-814a-7bc345c46324" />
+<img width="1467" height="745" alt="image" src="https://github.com/user-attachments/assets/331ada97-0207-454b-acf4-7ddd8a093be9" />
+
+
+
+
 28.8 bis ?
 
 ## Grob-Planung
